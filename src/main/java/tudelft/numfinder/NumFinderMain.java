@@ -11,7 +11,7 @@ public class NumFinderMain {
         // this crashes
         nf.find(new int[] {4, 3, 2, 1});
 
-        System.out.println(nf.getLargest());
-        System.out.println(nf.getSmallest());
+        System.out.println("The largest number is: " + nf.getLargest());
+        System.out.println("The smallest number is: " +  nf.getSmallest());
     }
 }
